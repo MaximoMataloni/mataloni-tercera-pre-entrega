@@ -728,6 +728,51 @@ main {
   margin-left: 150px;
 }
 
+.repro {
+  border-radius: 8%;
+  border: solid black;
+}
+
+.apr {
+  border-radius: 8%;
+  border: solid black;
+}
+
+.escape {
+  border-radius: 8%;
+  border: solid black;
+}
+
+.kyn {
+  border-radius: 8%;
+  border: solid black;
+}
+
+.repro:hover {
+  transform: scale(0.9);
+  transition: 5s;
+}
+
+.apr:hover {
+  transform: scale(0.9);
+  transition: 5s;
+}
+
+.revo:hover {
+  transform: scale(0.9);
+  transition: 5s;
+}
+
+.kyn:hover {
+  transform: scale(0.9);
+  transition: 5s;
+}
+
+.escape:hover {
+  transform: scale(0.9);
+  transition: 5s;
+}
+
 .column img {
   width: 100%;
   margin-top: 5px;
@@ -742,6 +787,16 @@ main {
 .column {
   flex: 50%;
   padding: 5px;
+}
+
+.project {
+  border-radius: 8%;
+  border: solid black;
+}
+
+.project:hover {
+  transform: scale(1.03);
+  transition: 5s;
 }
 
 .p-c {
@@ -910,7 +965,7 @@ main {
   }
 }
 @media (max-width: 426px) {
-  .Barra-De-Navegacion {
+  .nav-item {
     font-size: 10px;
     padding: 0 25px;
   }
@@ -1142,7 +1197,7 @@ main {
   }
 }
 @media (max-width: 376px) {
-  .Barra-De-Navegacion {
+  .nav-item {
     font-size: 10px;
     padding: 0 20px;
   }
@@ -1299,7 +1354,7 @@ main {
   }
 }
 @media (max-width: 321px) {
-  .Barra-De-Navegacion {
+  .nav-item {
     font-size: 10px;
     padding: 0 13px;
   }

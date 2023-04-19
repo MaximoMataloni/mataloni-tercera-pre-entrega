@@ -6,7 +6,7 @@ Acceso al proyecto
 
 Acceso a repositorio github: https://github.com/MaximoMataloni/mataloni-tercera-pre-entrega.git
 
-Acceso a la web: 
+Acceso a la web: https://maximomataloni.github.io/mataloni-tercera-pre-entrega/
 
 Tecnologias Utilizadas: html, css, bootstrap, grids, flexbox, sass.
 

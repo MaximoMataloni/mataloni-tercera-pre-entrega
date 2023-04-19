@@ -1,34 +1,74 @@
 .h1 {font-size: 50px;
-    margin-top: 10px;
-    font-weight: bold;
-    text-decoration: underline;
-    margin-left: 20px;}
+     margin-top: 10px;
+     font-weight: bold;
+     text-decoration: underline;
+     margin-left: 20px;}
+
 .inicio-1 {font-size: 20px;
            text-align: justify;
            margin-left: 30px;
            margin-right: 20px;
            margin-top: 10px;}
+
 .h2 {font-size: 30px;
      margin-top: 10px;
      font-weight: bold;
      margin-left: 20px;
      text-decoration: underline;}
+
 .mod-comunes {font-size: 20px;
               text-align: justify;
               font-weight: bold;
               margin-left: 40px;
               margin-right: 20px;
               margin-top: 10px;}
+
 .mod-1 {@include mod} 
 
 .mod-2 {@include mod} 
+
 .mod-3 {@include mod} 
+
 .dd-1 {@include dd}
+
 .dd-2 {@include dd;}
+
 .dd-3 {@include dd}
+
 .dd-4 {@include dd}
+
 .repro { @include img-2}
+
 .kyn {@include img-2}
+
 .escape{ @include img-2}
+
 .apr {@include img-1}
+
 .revo {@include img-1}
+
+.repro {border-radius: 8%;
+        border: solid black;}
+
+.apr {border-radius: 8%;
+      border: solid black;}
+.escape {border-radius: 8%;
+         border: solid black;}
+
+.kyn {border-radius: 8%;
+      border: solid black;}
+
+.repro:hover {transform: scale(0.9);
+              transition: 5s;}
+
+.apr:hover {transform: scale(0.9);
+            transition: 5s;}
+
+.revo:hover {transform: scale(0.9);
+             transition: 5s;}
+
+.kyn:hover {transform: scale(0.9);
+            transition: 5s;}
+            
+.escape:hover {transform: scale(0.9);
+               transition: 5s;}

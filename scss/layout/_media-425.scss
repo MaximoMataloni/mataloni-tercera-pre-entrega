@@ -1,8 +1,8 @@
 //index//
 @media (max-width:426px) {
 
-    .Barra-De-Navegacion {font-size: 10px;
-                         padding: 0 25px;}
+    .nav-item {font-size: 10px;
+                          padding: 0 25px;}
     .Homepage {width: 425px;
               height: 628px;}
     .titulo {font-size: 55px;}
@@ -81,9 +81,7 @@
    /* fin historia */
    .p-9{font-size: 15px;}
    .p-9-2 {font-size: 18px;}}
-   .img-9 {
-        margin-left: 12px;
-   }
+   .img-9 {margin-left: 12px;}
 
    //main proyectos//
    @media (max-width:426px) {
@@ -106,5 +104,4 @@
         .apr {margin-left: 30px;}
         .revo {margin-left: 50px;}
         .escape {margin-left: 30px;}
-        .kyn {margin-left: 30px;}
-        }
+        .kyn {margin-left: 30px;}}
