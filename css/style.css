@@ -41,6 +41,7 @@ footer {
   color: black;
   padding: 0 15px;
   font-size: 20px;
+  margin-top: 5px;
 }
 
 .politicas {
@@ -103,8 +104,8 @@ main {
   grid-area: p-1;
   font-size: 20px;
   text-align: justify;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .mk1-sub {
@@ -150,8 +151,8 @@ main {
   grid-area: p-2;
   font-size: 20px;
   text-align: justify;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .img-mk2 {
@@ -188,8 +189,8 @@ main {
   grid-area: p-3;
   font-size: 20px;
   text-align: justify;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .mk3-sub {
@@ -251,8 +252,8 @@ main {
   grid-area: p-4;
   font-size: 20px;
   text-align: justify;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .p-4-sub {
@@ -312,16 +313,16 @@ main {
   grid-area: p-5;
   font-size: 20px;
   text-align: justify;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .p-5-2 {
   grid-area: p-5-2;
   font-size: 20px;
   text-align: justify;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .p-5-3 {
@@ -339,8 +340,8 @@ main {
   grid-area: p-5-4;
   font-size: 20px;
   text-align: justify;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .img-mk5 {
@@ -391,16 +392,16 @@ main {
   grid-area: p-6;
   font-size: 20px;
   text-align: justify;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .p-6-2 {
   grid-area: p-6-2;
   font-size: 20px;
   text-align: justify;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .p-6-3 {
@@ -462,8 +463,8 @@ main {
   grid-area: p-7;
   font-size: 20px;
   text-align: justify;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .p-7-2 {
@@ -550,8 +551,8 @@ main {
   grid-area: p-8;
   font-size: 20px;
   text-align: justify;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .img-mk8 {
@@ -579,8 +580,8 @@ main {
 .p-9 {
   font-size: 20px;
   text-align: justify;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .p-9-2 {
@@ -800,13 +801,13 @@ main {
 }
 
 .p-c {
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .p-t {
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 @media (max-width: 1024px) {
@@ -887,40 +888,67 @@ main {
   .subtitulo-1 {
     font-size: 40px;
   }
+  .mk1-sub {
+    margin-left: 96px;
+  }
+  .img-mk1 {
+    margin-left: 96px;
+  }
   /* mk2 */
   .subtitulo-2 {
     font-size: 40px;
+  }
+  .img-mk2 {
+    margin-left: 96px;
   }
   /* mk3 */
   .subtitulo-3 {
     font-size: 40px;
   }
+  .img-mk3 {
+    margin-left: 96px;
+  }
+  .img-mk3-2 {
+    margin-left: 96px;
+  }
   .mk3-sub {
-    margin-left: 280px;
+    margin-left: 200px;
   }
   /* mk4 */
   .subtitulo-4 {
     font-size: 40px;
   }
-  .mk4-sub {
-    margin-left: 250px;
+  .img-mk4 {
+    margin-left: 96px;
+  }
+  .img-mk4-2 {
+    margin-left: 96px;
   }
   .p-4-sub {
-    margin-left: 350px;
+    margin-left: 290px;
   }
   /* mk5 */
   .subtitulo-5 {
     font-size: 40px;
   }
+  .img-mk5 {
+    margin-left: 96px;
+  }
+  .img-mk5-2 {
+    margin-left: 6px;
+  }
   .p-5-3 {
-    margin-left: 300px;
+    margin-left: 150px;
   }
   /* mk6 */
   .subtitulo-6 {
     font-size: 40px;
   }
+  .img-mk6-2 {
+    margin-left: 6px;
+  }
   .p-6-3 {
-    margin-left: 300px;
+    margin-left: 140px;
   }
   /* mk7 */
   .subtitulo-7 {
@@ -945,6 +973,9 @@ main {
   /* mk8 */
   .subtitulo-8 {
     font-size: 40px;
+  }
+  .img-mk8 {
+    margin-left: 96px;
   }
 }
 @media (max-width: 769px) {
@@ -1002,10 +1033,10 @@ main {
   }
   .mk1-sub {
     font-size: 15px;
-    margin-left: 80px;
+    margin-left: 53px;
   }
   .img-mk1 {
-    margin-left: 80px;
+    margin-left: 53px;
   }
   /* mk2 */
   .subtitulo-2 {
@@ -1025,10 +1056,10 @@ main {
     font-size: 15px;
   }
   .img-mk3 {
-    margin-left: 50px;
+    margin-left: 53px;
   }
   .img-mk3-2 {
-    margin-left: 50px;
+    margin-left: 53px;
   }
   .mk3-sub {
     margin-left: 80px;
@@ -1042,10 +1073,10 @@ main {
     font-size: 15px;
   }
   .img-mk4 {
-    margin-left: 50px;
+    margin-left: 53px;
   }
   .img-mk4-2 {
-    margin-left: 50px;
+    margin-left: 53px;
   }
   .p-4-sub {
     margin-left: 130px;
@@ -1063,17 +1094,14 @@ main {
   }
   .p-5-3 {
     font-size: 15px;
-    margin-left: 120px;
+    margin-left: 50px;
   }
   .p-5-4 {
     font-size: 15px;
   }
   .img-mk5 {
-    margin-left: 80px;
+    margin-left: 53px;
     margin-block-end: 10px;
-  }
-  .img-mk5-2 {
-    margin-left: 80px;
   }
   /* mk6 */
   .subtitulo-6 {
@@ -1087,13 +1115,10 @@ main {
   }
   .p-6-3 {
     font-size: 15px;
-    margin-left: 120px;
+    margin-left: 60px;
   }
   .img-mk6 {
-    margin-left: 100px;
-  }
-  .img-mk6-2 {
-    margin-left: 80px;
+    margin-left: 56px;
   }
   /* mk7 */
   .subtitulo-7 {
@@ -1127,7 +1152,7 @@ main {
     font-size: 15px;
   }
   .img-mk8 {
-    margin-left: 50px;
+    margin-left: 56px;
   }
   /* fin historia */
   .p-9 {
@@ -1237,10 +1262,10 @@ main {
   }
   .mk1-sub {
     font-size: 15px;
-    margin-left: 80px;
+    margin-left: 47px;
   }
   .img-mk1 {
-    margin-left: 80px;
+    margin-left: 47px;
   }
   /* mk2 */
   .subtitulo-2 {
@@ -1250,7 +1275,7 @@ main {
     font-size: 15px;
   }
   .img-mk2 {
-    margin-left: 40px;
+    margin-left: 47px;
   }
   /* mk3 */
   .subtitulo-3 {
@@ -1260,47 +1285,65 @@ main {
     font-size: 15px;
   }
   .img-mk3 {
-    margin-left: 50px;
+    margin-left: 47px;
   }
   .img-mk3-2 {
-    margin-left: 50px;
+    margin-left: 47px;
   }
   .mk3-sub {
-    margin-left: 50px;
+    margin-left: 47px;
     font-size: 15px;
+  }
+  /*mk4*/
+  .img-mk4 {
+    margin-left: 47px;
+  }
+  .img-mk4-2 {
+    margin-left: 47px;
+  }
+  .p-4-sub {
+    margin-left: 100px;
   }
   /* mk5 */
   .subtitulo-5 {
     font-size: 21px;
   }
   .img-mk5 {
-    margin-left: 80px;
-  }
-  .img-mk5-2 {
-    margin-left: 60px;
+    margin-left: 47px;
   }
   .p-5-3 {
-    margin-left: 110px;
+    margin-left: 40px;
   }
   /* mk6 */
   .subtitulo-6 {
     font-size: 21px;
   }
   .img-mk6 {
-    margin-left: 80px;
-  }
-  .img-mk6-2 {
-    margin-left: 60px;
+    margin-left: 47px;
   }
   .p-6-3 {
-    margin-left: 110px;
-  }
-  /* mk7 */
-  .p-7-2 {
     margin-left: 40px;
   }
+  /* mk7 */
+  .img-mk7 {
+    width: 90%;
+    margin-left: 23px;
+  }
+  .img-mk7-2 {
+    margin-left: 20px;
+  }
+  .img-mk7-3 {
+    margin-left: 35px;
+  }
+  .p-7-2 {
+    margin-left: 25px;
+  }
   .p-7-3 {
-    margin-left: 60px;
+    margin-left: 50px;
+  }
+  /* mk7 */
+  .img-mk8 {
+    margin-left: 47px;
   }
 }
 @media (max-width: 376px) {
@@ -1380,10 +1423,10 @@ main {
   }
   .mk1-sub {
     font-size: 10px;
-    margin-left: 70px;
+    margin-left: 40px;
   }
   .img-mk1 {
-    margin-left: 70px;
+    margin-left: 40px;
   }
   /* mk2 */
   .subtitulo-2 {
@@ -1393,7 +1436,7 @@ main {
     font-size: 10px;
   }
   .img-mk2 {
-    margin-left: 50px;
+    margin-left: 40px;
   }
   /* mk3 */
   .subtitulo-3 {
@@ -1403,10 +1446,14 @@ main {
     font-size: 10px;
   }
   .img-mk3 {
-    margin-left: 50px;
+    margin-left: 40px;
+  }
+  .img-mk3-2 {
+    margin-left: 40px;
   }
   .mk3-sub {
     font-size: 10px;
+    margin-left: 70px;
   }
   /* mk4 */
   .subtitulo-4 {
@@ -1437,15 +1484,13 @@ main {
   }
   .p-5-3 {
     font-size: 10px;
+    margin-left: 50px;
   }
   .p-5-4 {
     font-size: 10px;
   }
   .img-mk5 {
     margin-left: 40px;
-  }
-  .img-mk5-2 {
-    margin-left: 50px;
   }
   /* mk6 */
   .subtitulo-6 {
@@ -1459,12 +1504,10 @@ main {
   }
   .p-6-3 {
     font-size: 10px;
+    margin-left: 50px;
   }
   .img-mk6 {
     margin-left: 40px;
-  }
-  .img-mk6-2 {
-    margin-left: 50px;
   }
   /* mk7 */
   .subtitulo-7 {
@@ -1475,14 +1518,10 @@ main {
   }
   .p-7-2 {
     font-size: 10px;
+    margin-left: 35px;
   }
   .p-7-3 {
     font-size: 10px;
-  }
-  .p-7-2 {
-    margin-left: 50px;
-  }
-  .p-7-3 {
     margin-left: 60px;
   }
   /* mk8 */
@@ -1491,6 +1530,9 @@ main {
   }
   .p-8 {
     font-size: 10px;
+  }
+  .img-mk8 {
+    margin-left: 40px;
   }
   /* fin historia */
   .p-9 {
