@@ -16,69 +16,91 @@
  @media (max-width:426px) {
     /* mk1 */
     .subtitulo-1 {font-size: 21px;}
-    .p-1 {font-size: 15px;}
+    .p-1 {font-size: 15px;
+        letter-spacing: normal;}
     .mk1-sub {font-size: 15px;
-             margin-left: 53px;}
+             margin-left: 53px;
+             letter-spacing: normal;}
     .img-mk1 {margin-left: 53px;}
    
    /* mk2 */
     .subtitulo-2 {font-size: 21px;}
-    .p-2 {font-size: 15px;}
+    .p-2 {font-size: 15px;
+        letter-spacing: normal;}
     .img-mk2 {margin-left: 60px;}
    
    /* mk3} */
     .subtitulo-3 {font-size: 21px;}
-    .p-3 {font-size: 15px;}
+    .p-3 {font-size: 15px;
+        letter-spacing: normal;}
     .img-mk3 {margin-left: 53px;}
     .img-mk3-2 {margin-left: 53px;}
     .mk3-sub {margin-left: 80px;
-              font-size: 15px;}
+              font-size: 15px;
+              letter-spacing: normal;}
    
     /* mk4 */
     .subtitulo-4 {font-size: 21px;}
-    .p-4 {font-size: 15px;}
+    .p-4 {font-size: 15px;
+        letter-spacing: normal;}
     .img-mk4 {margin-left: 53px;}
     .img-mk4-2 {margin-left: 53px;}
     .p-4-sub { margin-left: 130px;
-               font-size: 15px;}
+               font-size: 15px;
+               letter-spacing: normal;}
    
     /* mk5 */
     .subtitulo-5 {font-size: 21px;}
-    .p-5 {font-size: 15px;}
-    .p-5-2 {font-size: 15px;}
+    .p-5 {font-size: 15px;
+          letter-spacing: normal;}
+    .p-5-2 {font-size: 15px;
+            letter-spacing: normal;}
     .p-5-3 {font-size: 15px;
-           margin-left: 50px;}
-    .p-5-4 {font-size: 15px;}
+           margin-left: 50px;
+        letter-spacing: normal;}
+    .p-5-4 {font-size: 15px;
+            letter-spacing: normal;}
     .img-mk5 { margin-left: 53px;
                margin-block-end: 10px;}
    
     /* mk6 */
     .subtitulo-6 {font-size: 21px;}
-    .p-6 {font-size: 15px;}
-    .p-6-2 {font-size: 15px;}
+    .p-6 {font-size: 15px;
+          letter-spacing: normal;}
+    .p-6-2 {font-size: 15px;
+            letter-spacing: normal;}
     .p-6-3 {font-size: 15px;
-            margin-left: 60px;}
+            margin-left: 60px;
+            letter-spacing: normal;}
     .img-mk6 { margin-left: 56px;}
    
    /* mk7 */
     .subtitulo-7 {font-size: 21px;}
-    .p-7 {font-size: 15px;}
+    .p-7 {font-size: 15px;
+          letter-spacing: normal;}
     .p-7-2 {font-size: 15px;
-            margin-left: 60px;}
+            margin-left: 60px;
+            text-align: center;
+            letter-spacing: normal;}
     .p-7-3 {font-size: 15px;
-            margin-left: 50px;}
+            margin-left: 30px;
+            text-align: center;
+            letter-spacing: normal;}
     .img-mk7 { margin-left: 50px;}
     .img-mk7-2 {margin-left: 50px;}
     .img-mk7-3 {margin-left: 30px;}
    
    /* mk8 */
    .subtitulo-8 {font-size: 21px;}
-    .p-8 {font-size: 15px;}
+    .p-8 {font-size: 15px;
+        letter-spacing: normal;}
    .img-mk8 {margin-left: 56px;}
    
    /* fin historia */
-   .p-9{font-size: 15px;}
-   .p-9-2 {font-size: 18px;}}
+   .p-9{font-size: 15px;
+        letter-spacing: normal;}
+   .p-9-2 {font-size: 18px;
+        letter-spacing: normal;}}
    .img-9 {margin-left: 12px;}
 
    //main proyectos//
@@ -87,19 +109,35 @@
 
     //modificaciones//
     @media (max-width:426px) {
-        .h1 {font-size: 30px;}
-        .inicio-1 {font-size: 15px;}
-        .h2 {font-size: 20px;}
-        .mod-comunes {font-size: 15px;}
-        .mod-1 {font-size: 18px}
-        .mod-2 {font-size: 18px}
-        .mod-3 {font-size: 18px}
-        .dd-1 {font-size: 15px}
-        .dd-2 {font-size: 15px}
-        .dd-3 {font-size: 15px}
-        .dd-4 {font-size: 15px}
-        .repro {margin-left: 30px;}
-        .apr {margin-left: 30px;}
-        .revo {margin-left: 50px;}
-        .escape {margin-left: 30px;}
-        .kyn {margin-left: 30px;}}
+        .h1 {font-size: 30px;
+             margin-left: 30px;}
+        .inicio-1 {font-size: 15px;
+                   margin-left: 40px;}
+        .h2 {font-size: 20px;
+             margin-left: 30px;}
+        .mod-comunes {font-size: 15px;
+                      margin-left: 40px;}
+        .mod-1 {font-size: 18px;
+                margin-left: 30px;}
+        .mod-2 {font-size: 18px;
+                margin-left: 30px;}
+        .mod-3 {font-size: 18px;
+                margin-left: 30px;}
+        .dd-1 {font-size: 15px;
+               margin-left: 40px;}
+        .dd-2 {font-size: 15px;
+                margin-left: 40px;}
+        .dd-3 {font-size: 15px;
+               margin-left: 40px;}
+        .dd-4 {font-size: 15px;
+               margin-left: 40px;}
+        .repro {margin-left: 30px;
+        margin-left: 80px;}
+        .apr {margin-left: 30px;
+        margin-left: 60px;}
+        .revo {margin-left: 50px;
+        margin-left: 80px;}
+        .escape {margin-left: 30px;
+        margin-left: 80px;}
+        .kyn {margin-left: 30px;
+        margin-left: 80px;}}

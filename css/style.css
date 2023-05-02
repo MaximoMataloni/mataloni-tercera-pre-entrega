@@ -57,6 +57,11 @@ footer {
   color: white;
 }
 
+header {
+  position: sticky;
+  top: 0;
+}
+
 .logo-2 {
   height: 40px;
 }
@@ -91,6 +96,55 @@ main {
   font-size: 100px;
 }
 
+.main-historia {
+  color: gray;
+}
+
+.mk1 {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.mk2 {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.mk3 {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.mk4 {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.mk5 {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.mk6 {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.mk7 {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.mk8 {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.fin-historia {
+  width: 90%;
+  margin-left: 5%;
+}
+
 .subtitulo-1 {
   grid-area: sub-1;
   font-size: 50px;
@@ -98,14 +152,15 @@ main {
   text-align: center;
   margin-top: 10px;
   text-decoration: underline;
+  color: black;
+  letter-spacing: 3px;
 }
 
 .p-1 {
   grid-area: p-1;
   font-size: 20px;
   text-align: justify;
-  margin-left: 10px;
-  margin-right: 10px;
+  letter-spacing: 3px;
 }
 
 .mk1-sub {
@@ -115,6 +170,7 @@ main {
   margin-right: 20px;
   width: 75%;
   margin-left: 150px;
+  letter-spacing: 3px;
 }
 
 .img-mk1 {
@@ -124,11 +180,6 @@ main {
   margin-left: 150px;
   border-radius: 8%;
   border: solid black;
-}
-
-.img-mk1:hover {
-  transform: scale(0.9);
-  transition: 5s;
 }
 
 .mk1 {
@@ -145,14 +196,15 @@ main {
   text-align: center;
   margin-top: 10px;
   text-decoration: underline;
+  color: black;
+  letter-spacing: 3px;
 }
 
 .p-2 {
   grid-area: p-2;
   font-size: 20px;
   text-align: justify;
-  margin-left: 10px;
-  margin-right: 10px;
+  letter-spacing: 3px;
 }
 
 .img-mk2 {
@@ -162,11 +214,6 @@ main {
   width: 75%;
   margin-top: 10px;
   margin-left: 150px;
-}
-
-.img-mk2:hover {
-  transform: scale(0.9);
-  transition: 5s;
 }
 
 .mk2 {
@@ -183,14 +230,15 @@ main {
   text-align: center;
   margin-top: 10px;
   text-decoration: underline;
+  color: black;
+  letter-spacing: 3px;
 }
 
 .p-3 {
   grid-area: p-3;
   font-size: 20px;
   text-align: justify;
-  margin-left: 10px;
-  margin-right: 10px;
+  letter-spacing: 3px;
 }
 
 .mk3-sub {
@@ -200,8 +248,10 @@ main {
   font-weight: bold;
   margin-right: 20px;
   width: 80%;
-  margin-left: 570px;
+  margin-left: 460px;
   text-decoration: underline;
+  letter-spacing: 3px;
+  color: black;
 }
 
 .img-mk3 {
@@ -213,11 +263,6 @@ main {
   margin-left: 150px;
 }
 
-.img-mk3:hover {
-  transform: scale(0.9);
-  transition: 5s;
-}
-
 .img-mk3-2 {
   grid-area: img-mk3-2;
   border: solid black;
@@ -225,11 +270,6 @@ main {
   width: 75%;
   margin-left: 150px;
   margin-top: 10px;
-}
-
-.img-mk3-2:hover {
-  transform: scale(0.9);
-  transition: 5s;
 }
 
 .mk3 {
@@ -246,14 +286,15 @@ main {
   text-align: center;
   margin-top: 10px;
   text-decoration: underline;
+  color: black;
+  letter-spacing: 3px;
 }
 
 .p-4 {
   grid-area: p-4;
   font-size: 20px;
   text-align: justify;
-  margin-left: 10px;
-  margin-right: 10px;
+  letter-spacing: 3px;
 }
 
 .p-4-sub {
@@ -263,8 +304,10 @@ main {
   margin-right: 20px;
   width: 80%;
   font-weight: bold;
-  margin-left: 600px;
+  margin-left: 550px;
   text-decoration: underline;
+  letter-spacing: 3px;
+  color: black;
 }
 
 .img-mk4 {
@@ -276,11 +319,6 @@ main {
   margin-left: 150px;
 }
 
-.img-mk4:hover {
-  transform: scale(0.9);
-  transition: 5s;
-}
-
 .img-mk4-2 {
   grid-area: img-mk4-2;
   border: solid black;
@@ -288,11 +326,6 @@ main {
   width: 75%;
   margin-left: 150px;
   margin-top: 10px;
-}
-
-.img-mk4-2:hover {
-  transform: scale(0.9);
-  transition: 5s;
 }
 
 .mk4 {
@@ -307,41 +340,42 @@ main {
   text-align: center;
   margin-top: 10px;
   text-decoration: underline;
+  color: black;
+  letter-spacing: 3px;
 }
 
 .p-5 {
   grid-area: p-5;
   font-size: 20px;
   text-align: justify;
-  margin-left: 10px;
-  margin-right: 10px;
+  letter-spacing: 3px;
 }
 
 .p-5-2 {
   grid-area: p-5-2;
   font-size: 20px;
   text-align: justify;
-  margin-left: 10px;
-  margin-right: 10px;
+  letter-spacing: 3px;
 }
 
 .p-5-3 {
   grid-area: p-5-3;
   font-size: 20px;
   text-align: justify;
-  margin-left: 540px;
+  margin-left: 400px;
   font-weight: bold;
   margin-right: 10px;
   margin-top: 10px;
   text-decoration: underline;
+  letter-spacing: 3px;
+  color: black;
 }
 
 .p-5-4 {
   grid-area: p-5-4;
   font-size: 20px;
   text-align: justify;
-  margin-left: 10px;
-  margin-right: 10px;
+  letter-spacing: 3px;
 }
 
 .img-mk5 {
@@ -353,11 +387,6 @@ main {
   margin-left: 150px;
 }
 
-.img-mk5:hover {
-  transform: scale(0.9);
-  transition: 5s;
-}
-
 .img-mk5-2 {
   grid-area: img-mk5-2;
   border: solid black;
@@ -365,11 +394,6 @@ main {
   width: 75%;
   margin-top: 10px;
   margin-left: 150px;
-}
-
-.img-mk5-2:hover {
-  transform: scale(0.9);
-  transition: 5s;
 }
 
 .mk5 {
@@ -386,33 +410,35 @@ main {
   text-align: center;
   margin-top: 10px;
   text-decoration: underline;
+  color: black;
+  letter-spacing: 3px;
 }
 
 .p-6 {
   grid-area: p-6;
   font-size: 20px;
   text-align: justify;
-  margin-left: 10px;
-  margin-right: 10px;
+  letter-spacing: 3px;
 }
 
 .p-6-2 {
   grid-area: p-6-2;
   font-size: 20px;
   text-align: justify;
-  margin-left: 10px;
-  margin-right: 10px;
+  letter-spacing: 3px;
 }
 
 .p-6-3 {
   grid-area: p-6-3;
   font-size: 20px;
   text-align: justify;
-  margin-left: 520px;
+  margin-left: 450px;
   font-weight: bold;
   margin-right: 10px;
   margin-top: 10px;
   text-decoration: underline;
+  letter-spacing: 3px;
+  color: black;
 }
 
 .img-mk6 {
@@ -421,12 +447,8 @@ main {
   border-radius: 8%;
   width: 75%;
   margin-top: 10px;
+  margin-block-end: 5px;
   margin-left: 150px;
-}
-
-.img-mk6:hover {
-  transform: scale(0.9);
-  transition: 5s;
 }
 
 .img-mk6-2 {
@@ -436,11 +458,6 @@ main {
   width: 75%;
   margin-top: 10px;
   margin-left: 150px;
-}
-
-.img-mk6-2:hover {
-  transform: scale(0.9);
-  transition: 5s;
 }
 
 .mk6 {
@@ -457,25 +474,28 @@ main {
   text-align: center;
   margin-top: 10px;
   text-decoration: underline;
+  color: black;
+  letter-spacing: 3px;
 }
 
 .p-7 {
   grid-area: p-7;
   font-size: 20px;
   text-align: justify;
-  margin-left: 10px;
-  margin-right: 10px;
+  letter-spacing: 3px;
 }
 
 .p-7-2 {
   grid-area: p-7-2;
   font-size: 20px;
   text-align: justify;
-  margin-left: 350px;
+  margin-left: 260px;
   font-weight: bold;
   margin-right: 10px;
   margin-top: 10px;
   text-decoration: underline;
+  letter-spacing: 3px;
+  color: black;
 }
 
 .p-7-3 {
@@ -487,6 +507,8 @@ main {
   margin-right: 10px;
   margin-top: 10px;
   text-decoration: underline;
+  letter-spacing: 3px;
+  color: black;
 }
 
 .img-mk7 {
@@ -498,11 +520,6 @@ main {
   margin-left: 150px;
 }
 
-.img-mk7:hover {
-  transform: scale(0.9);
-  transition: 5s;
-}
-
 .img-mk7-2 {
   grid-area: img-mk7-2;
   border: solid black;
@@ -512,23 +529,14 @@ main {
   margin-left: 150px;
 }
 
-.img-mk7-2:hover {
-  transform: scale(0.9);
-  transition: 5s;
-}
-
 .img-mk7-3 {
   grid-area: img-mk7-3;
   border: solid black;
   border-radius: 8%;
   margin-right: 20px;
+  margin-left: 30px;
   width: 71%;
   margin-top: 10px;
-}
-
-.img-mk7-3:hover {
-  transform: scale(0.9);
-  transition: 5s;
 }
 
 .mk7 {
@@ -545,14 +553,15 @@ main {
   text-align: center;
   margin-top: 10px;
   text-decoration: underline;
+  color: black;
+  letter-spacing: 3px;
 }
 
 .p-8 {
   grid-area: p-8;
   font-size: 20px;
   text-align: justify;
-  margin-left: 10px;
-  margin-right: 10px;
+  letter-spacing: 3px;
 }
 
 .img-mk8 {
@@ -565,11 +574,6 @@ main {
   margin-left: 150px;
 }
 
-.img-mk8:hover {
-  transform: scale(0.9);
-  transition: 5s;
-}
-
 .mk8 {
   display: grid;
   grid-template-columns: 20% 60% 20%;
@@ -578,10 +582,10 @@ main {
 
 /*fin historia  */
 .p-9 {
+  color: black;
   font-size: 20px;
   text-align: justify;
-  margin-left: 10px;
-  margin-right: 10px;
+  letter-spacing: 3px;
 }
 
 .p-9-2 {
@@ -606,113 +610,124 @@ main {
   margin-top: 10px;
   font-weight: bold;
   text-decoration: underline;
-  margin-left: 20px;
+  margin-left: 65px;
+  letter-spacing: 3px;
 }
 
 .inicio-1 {
   font-size: 20px;
   text-align: justify;
-  margin-left: 30px;
+  margin-left: 75px;
   margin-right: 20px;
   margin-top: 10px;
+  width: 80%;
+  letter-spacing: 3px;
 }
 
 .h2 {
   font-size: 30px;
   margin-top: 10px;
   font-weight: bold;
-  margin-left: 20px;
+  margin-left: 60px;
   text-decoration: underline;
+  letter-spacing: 3px;
 }
 
 .mod-comunes {
   font-size: 20px;
   text-align: justify;
   font-weight: bold;
-  margin-left: 40px;
-  margin-right: 20px;
+  margin-left: 80px;
   margin-top: 10px;
+  letter-spacing: 3px;
 }
 
 .mod-1 {
   font-size: 30px;
-  margin-left: 20px;
+  width: 80%;
+  margin-left: 70px;
   margin-top: 40px;
   text-decoration: underline;
-  margin-right: 20px;
+  letter-spacing: 3px;
 }
 
 .mod-2 {
   font-size: 30px;
-  margin-left: 20px;
+  width: 80%;
+  margin-left: 70px;
   margin-top: 40px;
   text-decoration: underline;
-  margin-right: 20px;
+  letter-spacing: 3px;
 }
 
 .mod-3 {
   font-size: 30px;
-  margin-left: 20px;
+  width: 80%;
+  margin-left: 70px;
   margin-top: 40px;
   text-decoration: underline;
-  margin-right: 20px;
+  letter-spacing: 3px;
 }
 
 .dd-1 {
   font-size: 20px;
+  width: 80%;
   text-align: justify;
-  margin-left: 30px;
-  margin-right: 10px;
+  margin-left: 70px;
   margin-top: 10px;
   margin-right: 20px;
+  letter-spacing: 3px;
 }
 
 .dd-2 {
   font-size: 20px;
+  width: 80%;
   text-align: justify;
-  margin-left: 30px;
-  margin-right: 10px;
+  margin-left: 70px;
   margin-top: 10px;
   margin-right: 20px;
+  letter-spacing: 3px;
 }
 
 .dd-3 {
   font-size: 20px;
+  width: 80%;
   text-align: justify;
-  margin-left: 30px;
-  margin-right: 10px;
+  margin-left: 70px;
   margin-top: 10px;
   margin-right: 20px;
+  letter-spacing: 3px;
 }
 
 .dd-4 {
   font-size: 20px;
+  width: 80%;
   text-align: justify;
-  margin-left: 30px;
-  margin-right: 10px;
+  margin-left: 70px;
   margin-top: 10px;
   margin-right: 20px;
+  letter-spacing: 3px;
 }
 
 .repro {
-  width: 75%;
+  width: 60%;
   margin-top: 10px;
   margin-block-end: 10px;
-  margin-left: 150px;
+  margin-left: 250px;
 }
 
 .kyn {
-  width: 75%;
+  width: 60%;
   margin-top: 10px;
   margin-block-end: 10px;
-  margin-left: 150px;
+  margin-left: 250px;
 }
 
 .escape {
-  width: 75%;
+  width: 60%;
   margin-top: 10px;
   margin-block-end: 10px;
-  margin-left: 150px;
+  margin-left: 250px;
 }
 
 .apr {
@@ -749,31 +764,6 @@ main {
   border: solid black;
 }
 
-.repro:hover {
-  transform: scale(0.9);
-  transition: 5s;
-}
-
-.apr:hover {
-  transform: scale(0.9);
-  transition: 5s;
-}
-
-.revo:hover {
-  transform: scale(0.9);
-  transition: 5s;
-}
-
-.kyn:hover {
-  transform: scale(0.9);
-  transition: 5s;
-}
-
-.escape:hover {
-  transform: scale(0.9);
-  transition: 5s;
-}
-
 .column img {
   width: 100%;
   margin-top: 5px;
@@ -791,23 +781,19 @@ main {
 }
 
 .project {
-  border-radius: 8%;
   border: solid black;
-}
-
-.project:hover {
-  transform: scale(1.03);
-  transition: 5s;
-}
-
-.p-c {
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
 .p-t {
   margin-left: 10px;
   margin-right: 10px;
+  letter-spacing: 3px;
+}
+
+.p-c {
+  margin-left: 10px;
+  margin-right: 10px;
+  letter-spacing: 3px;
 }
 
 @media (max-width: 1024px) {
@@ -1030,10 +1016,12 @@ main {
   }
   .p-1 {
     font-size: 15px;
+    letter-spacing: normal;
   }
   .mk1-sub {
     font-size: 15px;
     margin-left: 53px;
+    letter-spacing: normal;
   }
   .img-mk1 {
     margin-left: 53px;
@@ -1044,6 +1032,7 @@ main {
   }
   .p-2 {
     font-size: 15px;
+    letter-spacing: normal;
   }
   .img-mk2 {
     margin-left: 60px;
@@ -1054,6 +1043,7 @@ main {
   }
   .p-3 {
     font-size: 15px;
+    letter-spacing: normal;
   }
   .img-mk3 {
     margin-left: 53px;
@@ -1064,6 +1054,7 @@ main {
   .mk3-sub {
     margin-left: 80px;
     font-size: 15px;
+    letter-spacing: normal;
   }
   /* mk4 */
   .subtitulo-4 {
@@ -1071,6 +1062,7 @@ main {
   }
   .p-4 {
     font-size: 15px;
+    letter-spacing: normal;
   }
   .img-mk4 {
     margin-left: 53px;
@@ -1081,6 +1073,7 @@ main {
   .p-4-sub {
     margin-left: 130px;
     font-size: 15px;
+    letter-spacing: normal;
   }
   /* mk5 */
   .subtitulo-5 {
@@ -1088,16 +1081,20 @@ main {
   }
   .p-5 {
     font-size: 15px;
+    letter-spacing: normal;
   }
   .p-5-2 {
     font-size: 15px;
+    letter-spacing: normal;
   }
   .p-5-3 {
     font-size: 15px;
     margin-left: 50px;
+    letter-spacing: normal;
   }
   .p-5-4 {
     font-size: 15px;
+    letter-spacing: normal;
   }
   .img-mk5 {
     margin-left: 53px;
@@ -1109,13 +1106,16 @@ main {
   }
   .p-6 {
     font-size: 15px;
+    letter-spacing: normal;
   }
   .p-6-2 {
     font-size: 15px;
+    letter-spacing: normal;
   }
   .p-6-3 {
     font-size: 15px;
     margin-left: 60px;
+    letter-spacing: normal;
   }
   .img-mk6 {
     margin-left: 56px;
@@ -1126,14 +1126,19 @@ main {
   }
   .p-7 {
     font-size: 15px;
+    letter-spacing: normal;
   }
   .p-7-2 {
     font-size: 15px;
     margin-left: 60px;
+    text-align: center;
+    letter-spacing: normal;
   }
   .p-7-3 {
     font-size: 15px;
-    margin-left: 50px;
+    margin-left: 30px;
+    text-align: center;
+    letter-spacing: normal;
   }
   .img-mk7 {
     margin-left: 50px;
@@ -1150,6 +1155,7 @@ main {
   }
   .p-8 {
     font-size: 15px;
+    letter-spacing: normal;
   }
   .img-mk8 {
     margin-left: 56px;
@@ -1157,9 +1163,11 @@ main {
   /* fin historia */
   .p-9 {
     font-size: 15px;
+    letter-spacing: normal;
   }
   .p-9-2 {
     font-size: 18px;
+    letter-spacing: normal;
   }
 }
 .img-9 {
@@ -1174,51 +1182,67 @@ main {
 @media (max-width: 426px) {
   .h1 {
     font-size: 30px;
+    margin-left: 30px;
   }
   .inicio-1 {
     font-size: 15px;
+    margin-left: 40px;
   }
   .h2 {
     font-size: 20px;
+    margin-left: 30px;
   }
   .mod-comunes {
     font-size: 15px;
+    margin-left: 40px;
   }
   .mod-1 {
     font-size: 18px;
+    margin-left: 30px;
   }
   .mod-2 {
     font-size: 18px;
+    margin-left: 30px;
   }
   .mod-3 {
     font-size: 18px;
+    margin-left: 30px;
   }
   .dd-1 {
     font-size: 15px;
+    margin-left: 40px;
   }
   .dd-2 {
     font-size: 15px;
+    margin-left: 40px;
   }
   .dd-3 {
     font-size: 15px;
+    margin-left: 40px;
   }
   .dd-4 {
     font-size: 15px;
+    margin-left: 40px;
   }
   .repro {
     margin-left: 30px;
+    margin-left: 80px;
   }
   .apr {
     margin-left: 30px;
+    margin-left: 60px;
   }
   .revo {
     margin-left: 50px;
+    margin-left: 80px;
   }
   .escape {
     margin-left: 30px;
+    margin-left: 80px;
   }
   .kyn {
     margin-left: 30px;
+    margin-left: 80px;
   }
 }
 @media (max-width: 376px) {
@@ -1381,19 +1405,19 @@ main {
     font-size: 10px;
   }
   .repro {
-    margin-left: 30px;
+    margin-left: 70px;
   }
   .apr {
-    margin-left: 30px;
+    margin-left: 50px;
   }
   .revo {
     margin-left: 50px;
   }
   .escape {
-    margin-left: 30px;
+    margin-left: 70px;
   }
   .kyn {
-    margin-left: 30px;
+    margin-left: 70px;
   }
 }
 @media (max-width: 321px) {
@@ -1578,19 +1602,19 @@ main {
     font-size: 10px;
   }
   .repro {
-    margin-left: 30px;
+    margin-left: 60px;
   }
   .apr {
-    margin-left: 30px;
+    margin-left: 40px;
   }
   .revo {
     margin-left: 50px;
   }
   .escape {
-    margin-left: 30px;
+    margin-left: 60px;
   }
   .kyn {
-    margin-left: 30px;
+    margin-left: 60px;
   }
 }
 
